@@ -5,7 +5,7 @@ const BASE_URL=process.env.BASE_URL;
 const httpServer = createServer();
 const io = new Server(httpServer, {
   cors: {
-    origin: `${BASE_URL}`,
+    origin: "https://type-champ-n9ccdcbsd-pyansus-projects.vercel.app",
     methods: ["GET", "POST"]
   }
 });
